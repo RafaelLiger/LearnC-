@@ -12,3 +12,4 @@
 /home/rafael/testec#/testec#/obj/Debug/net10.0/testec#.pdb
 /home/rafael/testec#/testec#/obj/Debug/net10.0/testec#.genruntimeconfig.cache
 /home/rafael/testec#/testec#/obj/Debug/net10.0/ref/testec#.dll
+/home/rafael/testec#/testec#/obj/Debug/net10.0/testec#.sourcelink.json
