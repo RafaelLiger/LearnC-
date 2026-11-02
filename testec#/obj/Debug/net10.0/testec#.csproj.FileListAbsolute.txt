@@ -1,0 +1,14 @@
+/home/rafael/testec#/testec#/bin/Debug/net10.0/testec#
+/home/rafael/testec#/testec#/bin/Debug/net10.0/testec#.deps.json
+/home/rafael/testec#/testec#/bin/Debug/net10.0/testec#.runtimeconfig.json
+/home/rafael/testec#/testec#/bin/Debug/net10.0/testec#.dll
+/home/rafael/testec#/testec#/bin/Debug/net10.0/testec#.pdb
+/home/rafael/testec#/testec#/obj/Debug/net10.0/testec#.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael/testec#/testec#/obj/Debug/net10.0/testec#.AssemblyInfoInputs.cache
+/home/rafael/testec#/testec#/obj/Debug/net10.0/testec#.AssemblyInfo.cs
+/home/rafael/testec#/testec#/obj/Debug/net10.0/testec#.csproj.CoreCompileInputs.cache
+/home/rafael/testec#/testec#/obj/Debug/net10.0/testec#.dll
+/home/rafael/testec#/testec#/obj/Debug/net10.0/refint/testec#.dll
+/home/rafael/testec#/testec#/obj/Debug/net10.0/testec#.pdb
+/home/rafael/testec#/testec#/obj/Debug/net10.0/testec#.genruntimeconfig.cache
+/home/rafael/testec#/testec#/obj/Debug/net10.0/ref/testec#.dll
