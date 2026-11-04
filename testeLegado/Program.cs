@@ -1,4 +1,5 @@
-﻿namespace testeLegado;
+﻿
+namespace testeLegado;
 
 class Program
 {
@@ -13,22 +14,53 @@ class Program
         //     Console.WriteLine($"Hello World! The counter is {counter}");
         //     counter++;
         // } while (counter < 10);
-        for(int counter= 0; counter < 11; counter++)
-        {
-            Console.WriteLine($"Hello World! The counter is {counter}");
+
+        // void ExploreIf()
+        // {
+        //     int a = 5;
+        //     int b = 3;
+        //     if (a + b > 10)
+        //     {
+        //         Console.WriteLine("The answer is greater than 10.");
+        //     }
+        //     else
+        //     {
+        //         Console.WriteLine("The answer is not greater than 10");
+        //     }
+        // }
+        //ExplorerLoops();
+        void ExplorerLoops(){
+            for(int counter = 10; counter > -1; counter--)
+            {
+                Console.WriteLine($"Hello World! The counter is {counter}");
+            }
+            
+            for(char Column = 'a'; Column < 'k'; Column++)
+            {
+                for(int row = 1; row < 11; row++)
+                {
+                    Console.WriteLine($"The cell is ({row}, {Column})");
+                }
+            }
+            
         }
-        void ExploreIf()
+        DivisibleByThree();
+
+        void DivisibleByThree()
         {
-            int a = 5;
-            int b = 3;
-            if (a + b > 10)
+            int sum = 0;
+            Console.Write($"Divesible by three: ");
+            for( int divisible = 1; divisible < 21; divisible++)
             {
-                Console.WriteLine("The answer is greater than 10.");
+                if(divisible % 3 == 0)
+                {
+                    Console.Write($"{divisible}, ");
+                    sum += divisible;
+                }
             }
-            else
-            {
-                Console.WriteLine("The answer is not greater than 10");
-            }
-        }    
+            Console.WriteLine("End.");
+            Console.WriteLine($"The sum is {sum}");
+        }
+
     }
 }

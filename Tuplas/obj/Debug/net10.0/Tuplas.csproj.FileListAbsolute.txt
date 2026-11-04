@@ -1,0 +1,15 @@
+/home/rafael/testec#/Tuplas/bin/Debug/net10.0/Tuplas
+/home/rafael/testec#/Tuplas/bin/Debug/net10.0/Tuplas.deps.json
+/home/rafael/testec#/Tuplas/bin/Debug/net10.0/Tuplas.runtimeconfig.json
+/home/rafael/testec#/Tuplas/bin/Debug/net10.0/Tuplas.dll
+/home/rafael/testec#/Tuplas/bin/Debug/net10.0/Tuplas.pdb
+/home/rafael/testec#/Tuplas/obj/Debug/net10.0/Tuplas.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael/testec#/Tuplas/obj/Debug/net10.0/Tuplas.AssemblyInfoInputs.cache
+/home/rafael/testec#/Tuplas/obj/Debug/net10.0/Tuplas.AssemblyInfo.cs
+/home/rafael/testec#/Tuplas/obj/Debug/net10.0/Tuplas.csproj.CoreCompileInputs.cache
+/home/rafael/testec#/Tuplas/obj/Debug/net10.0/Tuplas.sourcelink.json
+/home/rafael/testec#/Tuplas/obj/Debug/net10.0/Tuplas.dll
+/home/rafael/testec#/Tuplas/obj/Debug/net10.0/refint/Tuplas.dll
+/home/rafael/testec#/Tuplas/obj/Debug/net10.0/Tuplas.pdb
+/home/rafael/testec#/Tuplas/obj/Debug/net10.0/Tuplas.genruntimeconfig.cache
+/home/rafael/testec#/Tuplas/obj/Debug/net10.0/ref/Tuplas.dll

@@ -1,0 +1,15 @@
+/home/rafael/testec#/Patterns/bin/Debug/net10.0/Patterns
+/home/rafael/testec#/Patterns/bin/Debug/net10.0/Patterns.deps.json
+/home/rafael/testec#/Patterns/bin/Debug/net10.0/Patterns.runtimeconfig.json
+/home/rafael/testec#/Patterns/bin/Debug/net10.0/Patterns.dll
+/home/rafael/testec#/Patterns/bin/Debug/net10.0/Patterns.pdb
+/home/rafael/testec#/Patterns/obj/Debug/net10.0/Patterns.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael/testec#/Patterns/obj/Debug/net10.0/Patterns.AssemblyInfoInputs.cache
+/home/rafael/testec#/Patterns/obj/Debug/net10.0/Patterns.AssemblyInfo.cs
+/home/rafael/testec#/Patterns/obj/Debug/net10.0/Patterns.csproj.CoreCompileInputs.cache
+/home/rafael/testec#/Patterns/obj/Debug/net10.0/Patterns.sourcelink.json
+/home/rafael/testec#/Patterns/obj/Debug/net10.0/Patterns.dll
+/home/rafael/testec#/Patterns/obj/Debug/net10.0/refint/Patterns.dll
+/home/rafael/testec#/Patterns/obj/Debug/net10.0/Patterns.pdb
+/home/rafael/testec#/Patterns/obj/Debug/net10.0/Patterns.genruntimeconfig.cache
+/home/rafael/testec#/Patterns/obj/Debug/net10.0/ref/Patterns.dll
