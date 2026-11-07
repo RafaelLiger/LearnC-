@@ -1,63 +1,73 @@
-﻿namespace Patterns;
+﻿
+
+
+
+namespace Patterns;
 
 class Program
 {
     static void Main(string[] args)
     {
-        string bankRecords = """
-            DEPOSIT,   10000, Initial balance
-            DEPOSIT,     500, regular deposit
-            WITHDRAWAL, 1000, rent
-            DEPOSIT,    2000, freelance payment
-            WITHDRAWAL,  300, groceries
-            DEPOSIT,     700, gift from friend
-            WITHDRAWAL,  150, utility bill
-            DEPOSIT,    1200, tax refund
-            WITHDRAWAL,  500, car maintenance
-            DEPOSIT,     400, cashback reward
-            WITHDRAWAL,  250, dining out
-            DEPOSIT,    3000, bonus payment
-            WITHDRAWAL,  800, loan repayment
-            DEPOSIT,     600, stock dividends
-            WITHDRAWAL,  100, subscription fee
-            DEPOSIT,    1500, side hustle income
-            WITHDRAWAL,  200, fuel expenses
-            DEPOSIT,     900, refund from store
-            WITHDRAWAL,  350, shopping
-            DEPOSIT,    2500, project milestone payment
-            WITHDRAWAL,  400, entertainment
-            """;
+        // exercicio 1
+    //    int numero = 10;
+    //    if (numero is 10)
+    //     {
+    //         Console.WriteLine("O número é 10!");
+    //     }
+        // exercicio 2
+        // int numero = 7;
+        // if(numero is 5 or 7)
+        // {
+        //     Console.WriteLine("Númeor encontrado!");
+        // }
 
-        double currentBalance = 0.0;
-        var reader = new StringReader(bankRecords);
+        //exercicio 3
+        // int opcao = 2;
 
-        string? line;
-        while ((line = reader.ReadLine()) is not null)
-        {
-            if (string.IsNullOrWhiteSpace(line)) continue;
-            // Split the line based on comma delimiter and trim each part
-            string[] parts = line.Split(',');
+        // string resultado = opcao switch
+        // {
+        //     1 => "Cadastrar",
+        //     2 => "Consultar",
+        //     3 => "Excluir",
+        //     _ => "Opção inválida!"
+        // };
+        // Console.WriteLine(resultado);
+
+        // exercicio 4
+        //  StatusPedido pedido = StatusPedido.Aprovado;
+
+        // string situacaoPedido = pedido switch
+        // {
+        //     StatusPedido.Pendente => "Pendente",
+        //     StatusPedido.Aprovado => "Aprovado",
+        //     StatusPedido.Cancelado => "cancelado",
+        //     _ => "Opcão inválida!"
+
+        // };
+        // Console.WriteLine(situacaoPedido);
+
+        //exercicio 6
+
+        // object valor = 25.8;
+
+        // if(valor is string)
+        // {
+        //     Console.WriteLine("O valor é um texto!");
+        // }
+       
             
-
-            string? transactionType = parts[0]?.Trim();
-            if (double.TryParse(parts[1].Trim(), out double amount))
-            {
-                // Update the balance based on transaction type
-                if (transactionType?.ToUpper() is "DEPOSIT")
-                    currentBalance += amount;
-                else if (transactionType?.ToUpper() is "WITHDRAWAL")
-                    currentBalance -= amount;
-
-                Console.WriteLine($"{line.Trim()} => Parsed Amount: {amount}, New Balance: {currentBalance}");
-            }
-        }
-        
+        // else if(valor is int numero)
+        // {
+        //     Console.WriteLine($"O valor: {numero} é um número inteiro!");   
+        // }
+        // else if(valor is not int)
+        // {
+        //     Console.WriteLine("O valor não é um numero interiro!");
+        // }   
+        // else
+        // {
+        //     Console.WriteLine("Valor não identificado!");
+            
     }
-}
-
-public enum TransactionType
-{
-    deposit,
-    Withdrawal,
-    Invalid    
-}
+}      
+   

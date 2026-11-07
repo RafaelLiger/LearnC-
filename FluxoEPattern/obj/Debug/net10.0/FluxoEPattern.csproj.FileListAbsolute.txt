@@ -1,0 +1,15 @@
+/home/rafael/testec#/FluxoEPattern/bin/Debug/net10.0/FluxoEPattern
+/home/rafael/testec#/FluxoEPattern/bin/Debug/net10.0/FluxoEPattern.deps.json
+/home/rafael/testec#/FluxoEPattern/bin/Debug/net10.0/FluxoEPattern.runtimeconfig.json
+/home/rafael/testec#/FluxoEPattern/bin/Debug/net10.0/FluxoEPattern.dll
+/home/rafael/testec#/FluxoEPattern/bin/Debug/net10.0/FluxoEPattern.pdb
+/home/rafael/testec#/FluxoEPattern/obj/Debug/net10.0/FluxoEPattern.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael/testec#/FluxoEPattern/obj/Debug/net10.0/FluxoEPattern.AssemblyInfoInputs.cache
+/home/rafael/testec#/FluxoEPattern/obj/Debug/net10.0/FluxoEPattern.AssemblyInfo.cs
+/home/rafael/testec#/FluxoEPattern/obj/Debug/net10.0/FluxoEPattern.csproj.CoreCompileInputs.cache
+/home/rafael/testec#/FluxoEPattern/obj/Debug/net10.0/FluxoEPattern.sourcelink.json
+/home/rafael/testec#/FluxoEPattern/obj/Debug/net10.0/FluxoEPattern.dll
+/home/rafael/testec#/FluxoEPattern/obj/Debug/net10.0/refint/FluxoEPattern.dll
+/home/rafael/testec#/FluxoEPattern/obj/Debug/net10.0/FluxoEPattern.pdb
+/home/rafael/testec#/FluxoEPattern/obj/Debug/net10.0/FluxoEPattern.genruntimeconfig.cache
+/home/rafael/testec#/FluxoEPattern/obj/Debug/net10.0/ref/FluxoEPattern.dll
