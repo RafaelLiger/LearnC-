@@ -1,0 +1,15 @@
+/home/rafael/testec#/MetodosConversoes/bin/Debug/net10.0/MetodosConversoes
+/home/rafael/testec#/MetodosConversoes/bin/Debug/net10.0/MetodosConversoes.deps.json
+/home/rafael/testec#/MetodosConversoes/bin/Debug/net10.0/MetodosConversoes.runtimeconfig.json
+/home/rafael/testec#/MetodosConversoes/bin/Debug/net10.0/MetodosConversoes.dll
+/home/rafael/testec#/MetodosConversoes/bin/Debug/net10.0/MetodosConversoes.pdb
+/home/rafael/testec#/MetodosConversoes/obj/Debug/net10.0/MetodosConversoes.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael/testec#/MetodosConversoes/obj/Debug/net10.0/MetodosConversoes.AssemblyInfoInputs.cache
+/home/rafael/testec#/MetodosConversoes/obj/Debug/net10.0/MetodosConversoes.AssemblyInfo.cs
+/home/rafael/testec#/MetodosConversoes/obj/Debug/net10.0/MetodosConversoes.csproj.CoreCompileInputs.cache
+/home/rafael/testec#/MetodosConversoes/obj/Debug/net10.0/MetodosConversoes.sourcelink.json
+/home/rafael/testec#/MetodosConversoes/obj/Debug/net10.0/MetodosConversoes.dll
+/home/rafael/testec#/MetodosConversoes/obj/Debug/net10.0/refint/MetodosConversoes.dll
+/home/rafael/testec#/MetodosConversoes/obj/Debug/net10.0/MetodosConversoes.pdb
+/home/rafael/testec#/MetodosConversoes/obj/Debug/net10.0/MetodosConversoes.genruntimeconfig.cache
+/home/rafael/testec#/MetodosConversoes/obj/Debug/net10.0/ref/MetodosConversoes.dll

@@ -1,0 +1,15 @@
+/home/rafael/testec#/Aula13/bin/Debug/net10.0/Aula13
+/home/rafael/testec#/Aula13/bin/Debug/net10.0/Aula13.deps.json
+/home/rafael/testec#/Aula13/bin/Debug/net10.0/Aula13.runtimeconfig.json
+/home/rafael/testec#/Aula13/bin/Debug/net10.0/Aula13.dll
+/home/rafael/testec#/Aula13/bin/Debug/net10.0/Aula13.pdb
+/home/rafael/testec#/Aula13/obj/Debug/net10.0/Aula13.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael/testec#/Aula13/obj/Debug/net10.0/Aula13.AssemblyInfoInputs.cache
+/home/rafael/testec#/Aula13/obj/Debug/net10.0/Aula13.AssemblyInfo.cs
+/home/rafael/testec#/Aula13/obj/Debug/net10.0/Aula13.csproj.CoreCompileInputs.cache
+/home/rafael/testec#/Aula13/obj/Debug/net10.0/Aula13.sourcelink.json
+/home/rafael/testec#/Aula13/obj/Debug/net10.0/Aula13.dll
+/home/rafael/testec#/Aula13/obj/Debug/net10.0/refint/Aula13.dll
+/home/rafael/testec#/Aula13/obj/Debug/net10.0/Aula13.pdb
+/home/rafael/testec#/Aula13/obj/Debug/net10.0/Aula13.genruntimeconfig.cache
+/home/rafael/testec#/Aula13/obj/Debug/net10.0/ref/Aula13.dll

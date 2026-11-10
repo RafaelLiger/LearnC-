@@ -1,17 +1,11 @@
-﻿try
-{
-    int idade = -5;
+﻿//144
+//85
+//223
+//19
 
-    if (idade < 0)
-    {
-        throw new ArgumentException("A idade não pode ser negativa!");
-    }
 
-    Console.WriteLine(idade);
-}
-catch (ArgumentException erro)
-{
-    Console.WriteLine($"Erro: {erro.Message}");
-}
-
-Console.WriteLine("Programa continua executando!");
+// 128 64 32 16 8 4 2 1
+//  0  0   1  0 1 1 0 1 = 45
+//  1  1   1  1 1 1 1 1 = 255
+//  0  0   0  1 0 0 0 0 = 16
+//  0  1   1  0 0 0 1 0 = 98

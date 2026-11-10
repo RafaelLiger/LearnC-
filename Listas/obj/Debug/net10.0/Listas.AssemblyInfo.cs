@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Listas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2dccb8f73396465f4dfc382a3b891deced8b57c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5027235d55d3e0d26e03c4b3257473b173ea1855")]
 [assembly: System.Reflection.AssemblyProductAttribute("Listas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Listas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
