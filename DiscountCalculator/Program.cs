@@ -1,4 +1,5 @@
 ﻿namespace DiscountCalculator;
+
 enum customerType
 {
     Comum,
@@ -7,32 +8,25 @@ enum customerType
 }
 class Program
 {
-    
     static void Main(string[] args)
     {    
-    
         // Entradas
         Console.WriteLine("Qual o valor total da compra? ");
         string amountTxt = Console.ReadLine();
-        Console.WriteLine("Qual o tipo de cliente? ");
+        Console.Write("Qual o tipo de cliente?\n[Comum] [Premium] [VIP]: ");
         string customerInput = Console.ReadLine();
-
+        
         // "Tratamento" de entradas
-        if(decimal.TryParse(amountTxt,out decimal amount))
+        if(!decimal.TryParse(amountTxt,out decimal amount)) // Se terminar false da um return e termina a execução
         {
             return;
         }
-        else
-        {
-            Console.WriteLine($"Entrada { amountTxt} inválida!");   
-        }
 
-        //decimal amount = Convert.ToDecimal(amountTxt);
+         //decimal amount = Convert.ToDecimal(amountTxt);
         string customer = customerInput.Trim();
 
         // associar entrada de tipo de cliente com membro do enum
-        // True  = para ignorar maiusculas e minusculas. out = retorna o valor por veio da variavel nova
-        if(Enum.TryParse<customerType>(customer, true, out customerType customerOutput))
+        if(Enum.TryParse<customerType>(customer, true, out customerType customerOutput)) // True  = para ignorar maiusculas e minusculas. out = retorna o valor por veio da variavel nova
         {
             Console.WriteLine($"Cliente selecionado: {customerOutput}");
 
@@ -48,18 +42,10 @@ class Program
 
             Console.WriteLine($"Valor: R${amount}");
             Console.WriteLine($"Valor final para cliente {customerOutput}: R${discountCalc}");
-
-
         }
         else
         {
             Console.WriteLine("Tipo de cliente inválido!");
         }
-    
-    
-
-
-
     }
-
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testeLegado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5027235d55d3e0d26e03c4b3257473b173ea1855")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bff7edd8395829427500f431922c15b7deff0a8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("testeLegado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testeLegado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
