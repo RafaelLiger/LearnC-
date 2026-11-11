@@ -1,4 +1,5 @@
 ﻿using System.Collections.Specialized;
+using System.Globalization;
 
 namespace Exercicios;
 
@@ -57,7 +58,8 @@ class Program
                 Console.Write(vetor2[i]+" ");
             }
         }
-        maior();
+        // Exercío 3
+        //maior();
         void maior()
         {
             int[] vetor = [100,2,33,4,5];
@@ -72,6 +74,39 @@ class Program
                 }
             }
             Console.WriteLine($"Posição do maior: {posicaoMaior}");
-        }  
+        } 
+        //Exercício 4
+        //par();
+        void par()
+        {
+            int[] vetor = [1,2,3,4,5,6,7,8,9,10,11,12];
+            int soma= 0;
+
+            foreach(int n in vetor)
+            {
+                if(n%2 == 0)
+                {
+                    soma+=n;
+                }
+            }
+            Console.WriteLine($"Soma de números pares: {soma}");
+        }
+        // Exercício 5
+        diagonal();
+        void diagonal()
+        {
+            int[,] matriz =
+            {
+                {1,2,3},
+                {4,5,6},
+                {7,8,9}
+            };
+            int soma =0;
+            for(int i = 0; i < matriz.GetLength(0); i++)
+            {
+                soma += matriz[i,i];    
+            }
+            Console.WriteLine($"Soma da diagonal: {soma}"); 
+        }
     }
 }

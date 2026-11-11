@@ -1,5 +1,0 @@
-/home/rafael/testec#/testeLegado/bin/Release/net10.0/publish/testeLegado
-/home/rafael/testec#/testeLegado/bin/Release/net10.0/publish/testeLegado.dll
-/home/rafael/testec#/testeLegado/bin/Release/net10.0/publish/testeLegado.deps.json
-/home/rafael/testec#/testeLegado/bin/Release/net10.0/publish/testeLegado.runtimeconfig.json
-/home/rafael/testec#/testeLegado/bin/Release/net10.0/publish/testeLegado.pdb
