@@ -92,7 +92,7 @@ class Program
             Console.WriteLine($"Soma de números pares: {soma}");
         }
         // Exercício 5
-        diagonal();
+        //diagonal();
         void diagonal()
         {
             int[,] matriz =
@@ -107,6 +107,55 @@ class Program
                 soma += matriz[i,i];    
             }
             Console.WriteLine($"Soma da diagonal: {soma}"); 
+        }
+        //Exercício 6
+        //negativos();
+        void negativos()
+        {
+            int[,] matriz =
+            {
+                {1,2},
+                {3,-4},
+                {-5,6},
+                {7,-8},
+                {9,10}
+            };
+            int contador = 0;
+            foreach(int n in matriz)
+            {
+                if(n < 0)
+                {
+                    contador++;
+                }
+            }
+            Console.WriteLine($"Existem {contador} números negativos.");
+        }
+        //Exercício 7
+        maiorVMatriz();
+        void maiorVMatriz()
+        {
+            int[,] matriz =
+            {
+                {1,3},
+                {7,0},
+                {8,4},
+                {4,9},
+                {5,6}
+            };
+
+            for(int i = 0;i < matriz.GetLength(0); i++)
+            {
+                int maior = matriz[i,0];
+                for(int j = 0;j < matriz.GetLength(1); j++)
+                {
+                    if(matriz[i,j] > maior)
+                    {
+                        maior = matriz[i,j];
+                    }   
+                }
+                Console.WriteLine($"Maior da linha {i}: {maior}");  
+            }
+            
         }
     }
 }
