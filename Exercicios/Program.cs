@@ -131,7 +131,7 @@ class Program
             Console.WriteLine($"Existem {contador} números negativos.");
         }
         //Exercício 7
-        maiorVMatriz();
+        //maiorVMatriz();
         void maiorVMatriz()
         {
             int[,] matriz =
@@ -156,6 +156,22 @@ class Program
                 Console.WriteLine($"Maior da linha {i}: {maior}");  
             }
             
+        }
+        //Exercicio 8
+        valorIgual();
+        void valorIgual()
+        {
+            int[] vetor = [1,3,4,5,3,6,8];
+            for(int i= 0; i < vetor.Length; i++)
+            {
+                for(int j=-1; j < 0; j--)
+                {
+                    if(vetor[i] == vetor[j])
+                    {
+                        Console.WriteLine($"O número {vetor[i]} se repete.");
+                    }
+                } 
+            }
         }
     }
 }
