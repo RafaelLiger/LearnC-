@@ -161,17 +161,28 @@ class Program
         valorIgual();
         void valorIgual()
         {
-            int[] vetor = [1,3,4,5,3,6,8];
-            for(int i= 0; i < vetor.Length; i++)
+            int[] vetor =
             {
-                for(int j=-1; j < 0; j--)
+                5, 12, 8, 6, 15,
+                8, 20, 3, 14, 8,
+                11, 7, 19, 8, 2,
+                16, 8, 10, 4, 8
+            };
+            bool repetido = false;
+            Console.WriteLine("Números iguais: ");
+            for(int i= vetor.Length -1; i> 0; i--)
+            {
+                for(int j= i+1; j < vetor.Length; j++)
                 {
                     if(vetor[i] == vetor[j])
                     {
-                        Console.WriteLine($"O número {vetor[i]} se repete.");
+                        repetido = true;
+                        break;
                     }
-                } 
+                }
+
             }
+            Console.WriteLine(repetido);
         }
     }
 }
