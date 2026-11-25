@@ -21,6 +21,10 @@ class Program
                 _ => throw new ArgumentException("Invalid payment method")
             };
             Console.WriteLine(payment.Process(value)); 
+        }
+        else
+        {
+            Console.WriteLine("Invalid payment method");
         }  
     }
     static void Main(string[] args)
